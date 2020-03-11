@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js config list
+
+PATH: 
+  =/mnt/oldhome/desenvolvimento/flutter/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: Unknown token: { line: 3, col: 18, type: 'COLON', value: undefined } 3:18 in /home/usuario/.yarnrc
+      at Parser.unexpected (/usr/share/yarn/lib/cli.js:64293:11)
+      at Parser.parse (/usr/share/yarn/lib/cli.js:64424:14)
+      at parse (/usr/share/yarn/lib/cli.js:64496:19)
+      at module.exports.exports.default (/usr/share/yarn/lib/cli.js:64060:96)
+      at YarnRegistry.<anonymous> (/usr/share/yarn/lib/cli.js:96129:64)
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
